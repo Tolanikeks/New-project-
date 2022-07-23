@@ -1,0 +1,11 @@
+//  @use "./button" as*;
+
+// .navBtn{
+//     @include button;
+// }
+@use "../font" as *;
+
+.navBar{
+    @include h1Font;
+
+}

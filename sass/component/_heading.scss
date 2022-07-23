@@ -1,0 +1,22 @@
+@use "../font" as *;
+
+.heading{
+    @include h1Font;
+}
+
+.headIng{
+    @include h2Font;
+}
+
+.aboutUs{
+    @include h1Font;
+}
+
+.loRem{
+    @include pFont;
+
+}
+
+.ButtonN{
+    @include pFont
+}

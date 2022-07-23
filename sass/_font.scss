@@ -1,0 +1,78 @@
+@use "./color" as *;
+$headingFontFamily: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+$textFontFamily: Georgia, 'Times New Roman', Times, serif;
+
+@mixin h1Font{
+    font: {
+        family:$headingFontFamily;
+        color: $textcolor;
+        size: 1.77em;
+        weight: bold;
+        
+    }
+}
+@mixin h2Font{
+    font: {
+        family:$headingFontFamily;
+        size: 1.67em;
+        weight: bold;
+        color: $textcolor;
+    }
+    
+}
+@mixin h3Font{
+    font: {
+        family:$headingFontFamily;
+        size:2.375em ;
+        weight: bold;
+    }
+    line-height: 6em;
+}
+@mixin h4Font{
+    font: {
+        family:$headingFontFamily;
+        size: 1.75em;
+        weight: bold;
+    }
+    line-height: 6em;
+}
+@mixin h5Font{
+    font: {
+        family:$headingFontFamily;
+        size: 1.3125em;
+        weight: bold;
+    }
+    line-height: 6em;
+}
+@mixin h6Font{
+    font: {
+        family:$headingFontFamily;
+        size: 1em ;
+        weight: bold;
+    }
+    line-height: 6em;
+}
+@mixin pFont{
+    font: {
+        family:$textFontFamily;
+        size: 1em ;
+        weight: lighter;
+        color: $buttoncolor;       
+    }
+    line-height: 1.333em;
+}
+
+@mixin mutedtext {
+    font: {
+        font-family: $textFontFamily;
+        font-size: 1em;
+        line-height: 16px;
+
+    }
+    
+}
+
+
+    
+    

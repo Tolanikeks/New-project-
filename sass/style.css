@@ -1,0 +1,66 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.navBar {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-color: #262626;
+  font-size: 1.77em;
+  font-weight: bold;
+}
+
+.heading {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-color: #262626;
+  font-size: 1.77em;
+  font-weight: bold;
+}
+
+.headIng {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 1.67em;
+  font-weight: bold;
+  font-color: #262626;
+}
+
+.aboutUs {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-color: #262626;
+  font-size: 1.77em;
+  font-weight: bold;
+}
+
+.loRem {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 1em;
+  font-weight: lighter;
+  font-color: #0096FF;
+  line-height: 1.333em;
+}
+
+.ButtonN {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 1em;
+  font-weight: lighter;
+  font-color: #0096FF;
+  line-height: 1.333em;
+}
+
+.imgBg {
+  background-image: url(../imagess/beautiful-black-woman-holding-looking-money-her-hand.jpg);
+  height: 75vh;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+body {
+  background-color: #c7d1ec;
+}
+
+.navBar2 {
+  font-weight: bolder;
+}
+/*# sourceMappingURL=style.css.map */
